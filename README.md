@@ -9,3 +9,6 @@ git commit -m "Messag here"    (  )
 git push      (  )
 
 git pull      ( Must be in correct directory )
+
+
+git add -A   ( Adds everything in the directory)
