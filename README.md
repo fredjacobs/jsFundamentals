@@ -12,3 +12,5 @@ git pull      ( Must be in correct directory )
 
 
 git add -A   ( Adds everything in the directory)
+
+ESC :wq      ( Get out of commit message screen )
