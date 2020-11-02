@@ -4,4 +4,8 @@ Commands:
 
 git clone URL ( Pull in reposatory )
 git status    (  )
-git add       (  ) 
+git add filename      (  ) 
+git commit -m "Messag here"    (  )
+git push      (  )
+
+git pull      ( Must be in correct directory )
