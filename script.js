@@ -22,7 +22,19 @@ function getBMI(mass, height) {
 
 function compareBMI(markBMI, johnBMI) {
 
-    console.log(markBMI > johnBMI);
+    let outputString = "";
+
+    if (markBMI > johnBMI) {
+
+        outputString = `Mark's BMI ${markBMI} is higer than John's BMI ${johnBMI}`;
+
+    } else {
+
+        outputString = `John's BMI ${johnBMI} is higer than Mark's BMI ${markBMI}`;
+
+    }
+
+    console.log(outputString);
 
 }
 
@@ -48,6 +60,36 @@ console.log(outputString);
 console.log(`Make a 
 multiline 
 string`);
+
+//convert to number
+
+const inputYear = '1991';
+
+console.log(Number(inputYear));
+
+//convert to string
+
+console.log(String(23));
+
+console.log(1 - '1');
+
+//Type conversion & Type Coercion
+
+
+//################################
+//TRUTHY & FALSY Values
+//################################
+
+//Falsy Values:
+// 0, '', undefined, null, NaN
+
+//Truthy Values
+//All else
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Fred'));
+console.log(Boolean({}));
 
 
 
