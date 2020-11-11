@@ -91,6 +91,8 @@ console.log(Boolean(undefined));
 console.log(Boolean('Fred'));
 console.log(Boolean({}));
 
+console.log('Updated File Content.');
+
 
 
 
