@@ -91,7 +91,67 @@ console.log(Boolean(undefined));
 console.log(Boolean('Fred'));
 console.log(Boolean({}));
 
-console.log('Updated File Content.');
+
+
+const num = prompt("What is your favourite number?");
+
+const convertNum = Number(num);
+
+console.log(num, typeof num);
+
+
+
+if (convertNum === 23){
+    console.log(`23 is a cool number`, typeof convertNum);
+}
+
+
+//Coding challenge 3
+
+const avgScoreDolphins = ( 97 + 112 + 101 ) / 3;
+const avgScoreKoalas = ( 109 + 95 + 106 ) / 3;
+
+console.log(`Average Score for Dolphins: ${avgScoreDolphins}`);
+console.log(`Average Score for Koa;as: ${avgScoreKoalas}`);
+
+let winner = "";
+
+if (avgScoreDolphins > avgScoreKoalas && avgScoreDolphins > 100) {
+
+    winner = `Dolphins are winner. Score: ${avgScoreDolphins}`;
+
+}else if(avgScoreDolphins < avgScoreKoalas && avgScoreKoalas > 100){
+
+    winner = `Koalas are winners. Score: ${avgScoreKoalas}`;
+
+}else if(avgScoreDolphins === avgScoreKoalas && avgScoreDolphins >= 100 && avgScoreKoalas >= 100) {
+
+    winner = "DRAW";
+   
+}else{
+
+    winner = "No Trophy Winner!";
+
+}
+
+console.log(winner);
+
+const age = 46;
+//Ternary operator
+const drink = age >= 18 ? 'I like to drink wine' : 'I like to drink water'; 
+
+console.log(drink);
+
+
+//Use inside a template literal
+console.log(`What do I like to drink? : ${age >= 18 ? 'I like to drink wine' : 'I like to drink water'}`);
+
+
+const bill = 430;
+let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total was ${bill + tip}`);
+
 
 
 
